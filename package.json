@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "bun --filter '*' dev",
     "dev:server": "bun --filter server dev",
-    "dev:client": "bun --filter client dev"
+    "dev:client": "bun --filter client dev",
+    "redis:up": "docker compose up -d",
+    "redis:down": "docker compose down"
   }
 }
